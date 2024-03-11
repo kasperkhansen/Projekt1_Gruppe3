@@ -8,14 +8,21 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+h4, h5, h6 {
     margin: 0;
     padding: 0;
 }
 
 p {
     margin: 0 0 1em 0;
+
 }
 
 a {
@@ -35,3 +42,4 @@ pre {
     max-width: 50%;
     padding: 20px;
 }
+
