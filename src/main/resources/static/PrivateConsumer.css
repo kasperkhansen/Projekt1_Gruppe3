@@ -8,8 +8,17 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    background-image: url("./Images/madspild.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
 
 }
+.hidden_img{
+    display: none;
+}
+
 h1, h2, h3 {
     margin: 0;
     padding: 0;
@@ -36,10 +45,13 @@ a:hover {
 
 pre {
     font-size: 1vw;
+    font-family: Arial, sans-serif;
     display: block;
     margin: 0 auto;
-    background-color: crimson;
+    background-color: rgba(255,255,255,0.7);
     max-width: 50%;
     padding: 20px;
+
+
 }
 
