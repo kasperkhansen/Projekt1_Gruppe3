@@ -12,8 +12,6 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-
-
 }
 .hidden_img{
     display: none;
@@ -22,16 +20,20 @@ body {
 h1, h2, h3 {
     margin: 0;
     padding: 0;
-    background-color: blue;
+
 }
-h4, h5, h6 {
-    margin: 0;
-    padding: 0;
+h4 {
+    font-size: 1vw;
+    font-family: Arial, sans-serif;
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.7);
+    max-width: 50%;
+    padding: 20px;
 }
 
 p {
     margin: 0 0 1em 0;
-
 }
 
 a {
@@ -52,6 +54,33 @@ pre {
     max-width: 50%;
     padding: 20px;
 
-
+}
+.privateQuizz {
+    font-size: 1vw;
+    font-family: Arial, sans-serif;
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.7);
+    max-width: 50%;
+    padding: 20px;
 }
 
+.homeButtonTitel {
+    font-size: 1vw;
+    font-family: Arial, sans-serif;
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.7);
+    max-width: 50%;
+    padding: 20px;
+}
+.homeScreenButton {
+    cursor: pointer;
+    width: 50px;
+}
+
+.homeScreenLogo {
+    width: 20px;
+    height: 20px;
+
+}
