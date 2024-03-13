@@ -3,18 +3,29 @@
 <head>
     <img src="/resources/static/Images/madspild.jpg" alt="test1" class="hidden_img">
     <meta charset="UTF-8">
-    <title>Private Consumer</title>
+    <title>Privat Forbruger</title>
     <link rel="stylesheet" href="/resources/static/PrivateConsumer.css">
 
 </head>
 <body>
+<header>                                <!-- Laver unik header -->
+    <h1>Privat Forbruger Velkommen</h1>
+</header>
 
-<h1>Privat forbruger Velkommen</h1>
+<div class="box1">                      <!-- Laver box element -->
+    <h2>Tilbage til start menu</h2>
+    <p>Klik her for at komme tilbage til startmenuen.</p>
+    <a href="Home.html">                <!-- fortæller knappen hvor den skal gå hen når trykket på -->
+        <button class="homeScreenButton"><img src="../static/Images/homeScreenLogo.png" class="homeScreenLogo"/></button></a>
+</div>
+<div class="box2">
+    <h2>Kunne du tænke dig en quizz i madspild?</h2>
 
-<br>
+</div>
+
 <h4>10 Tip til mindre madspild i hjemmet</h4>
-<pre>
-<b>1. Planlæg dine måltider:</b>
+<pre>                                   <!-- Predetermined (pre) text. Text indenfor tagget har en fixed opsætning. (Font, line breaks, spaces)-->
+<b>1. Planlæg dine måltider:</b>        <!-- Bold (b), gør texten fed/tyk -->
 Lav en madplan for ugen, så du kun køber de nødvendige ingredienser,
 og undgå spontane køb, der kan føre til overskud af madvarer.
 Køb ind med hoevedet, ikke med maven!
@@ -57,8 +68,8 @@ hvis I altså kan nå at spise dem, eller fryser dem med det samme.
 Spiser du eksempelvis selv en aften, skal der ganske enkelt ikke ligeså meget mad til.
 Det lyder måske som logik for burhøns, men basale tiltag som disse
 kan virkelig hjælpe dig på rette kurs når det angår madspild.</pre>
-<p class="privateQuizz">Kunne du tænke dig en quizz i madspild?
 
+<p class="privateQuizz">Kunne du tænke dig en quizz i madspild?
     <a href="PrivateConsumerQuiz.html">
         <br>
         <button>Tag quizz</button>
@@ -69,6 +80,8 @@ kan virkelig hjælpe dig på rette kurs når det angår madspild.</pre>
     <a href="Home.html">
         <button class="homeScreenButton"><img src="../static/Images/homeScreenLogo.png" class="homeScreenLogo"/></button></a>
 </p>
-
+<footer>                                <!-- Footer, laver sidefod -->
+    <p>Copyright © 2024 Organisation mod Madspild</p>
+</footer>
 </body>
 </html>
