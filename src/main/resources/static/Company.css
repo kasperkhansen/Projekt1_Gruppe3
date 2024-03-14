@@ -15,17 +15,29 @@ h3{
     text-align: center;
 }
 
-
+/* knap */
 .TilBestillingsSide{
     text-align: center;
-    margin: 20px 0;
+    margin: 20px;
+/* knap */
 
 }
+
+
 .TilbageTilForside{
     text-align: center;
-    margin:20px 0;
+    margin:20px;
 
 }
+
+.Foto{
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+
 
 
 
