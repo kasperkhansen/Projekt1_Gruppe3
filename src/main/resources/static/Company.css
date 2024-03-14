@@ -1,8 +1,4 @@
 body {
-    background-image:url("//Images/companybackground.png");
-}
-
-body {
 
     background-size: auto;
 
@@ -11,12 +7,24 @@ body {
     background-repeat: no-repeat;
 
     background-attachment: fixed;
-
 }
 
+h2{
+    text-align: center;
+}
 
 h1{
     text-align: center;
 }
 
+.GåTilBestillingsSide{
+
+}
+.TilbageTilForside{
+
+}
+
+body {
+    background-image: url('../static/Images/CB.png');
+}
 
